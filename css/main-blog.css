@@ -1,0 +1,67 @@
+.main-blog{
+    padding: 150px 0;
+}
+
+.main-blog__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 58px;
+}
+
+.main-blog__item{
+    flex-basis:542px ;
+    display: flex;
+    gap: 0 20px;
+}
+.main-blog__item-img{
+
+}
+
+.main-blog__item__content{
+    display: flex;
+    flex-direction: column;;
+}
+
+.main-blog__item-title{
+    font-family: "Cormorant",serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    min-height: 88px;
+
+}
+
+.main-blog__item-author{
+    font-size: 13px;
+}
+
+.main-blog__item-link{
+    margin-top: auto;
+    font-size: 13px;
+    position: relative;
+
+}
+
+.main-blog__item-link::after{
+    content: '';
+    background-image: url(../images/icon.svg);
+    position: absolute;
+
+    width: 5px;
+    height: 10px;
+    margin-left: 8px;
+
+    bottom: 3px;
+
+
+}
+
+.main-blog__link{
+    padding: 12px 41px;
+    display: flex;
+    justify-content: center;
+    margin: 72px auto 0;
+    border: 1px solid rgb(21, 22, 24);
+    width: 154px;
+
+}
